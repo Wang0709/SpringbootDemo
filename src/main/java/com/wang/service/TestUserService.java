@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wang.dao.TestUserMapper;
-import com.wang.entity.TestUser;
+import com.wang.domain.TestUserMapper;
+import com.wang.domain.TestUser;
 
 @Service
 public class TestUserService {
