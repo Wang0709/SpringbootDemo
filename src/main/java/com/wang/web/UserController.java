@@ -28,9 +28,9 @@ public class UserController {
 	@GetMapping("/insert")
 	public int insert() {
 		testUser = new TestUser();
-		testUser.setId(2);
-		testUser.setName("asdfasdfasdf");
-		testUser.setAddress("福建省厦门市");
+		testUser.setId(3);
+		testUser.setName("ccc");
+		testUser.setAddress("福建省福州市");
 		testUser.setBirthday(new Date());
 		return testUserService.insert(testUser);
 	}

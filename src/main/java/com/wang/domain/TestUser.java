@@ -11,6 +11,16 @@ public class TestUser {
 
     private String address;
 
+    public TestUser() {
+    }
+
+    public TestUser(Integer id, String name, Date birthday, String address) {
+        this.id = id;
+        this.name = name;
+        this.birthday = birthday;
+        this.address = address;
+    }
+
     public Integer getId() {
         return id;
     }
